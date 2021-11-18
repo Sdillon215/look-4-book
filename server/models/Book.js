@@ -4,8 +4,8 @@ const { Schema } = require('mongoose');
 const bookSchema = new Schema({
   authors: [
     {
-      type: String,
-    },
+      type: String
+    }
   ],
   description: {
     type: String,
